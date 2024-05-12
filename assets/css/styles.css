@@ -373,6 +373,48 @@ img {
   transform: scale(1.1);
 }
 
+/*===== PROJECTS =====*/
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section styles */
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.work {
+  padding: 50px 0;
+}
+
+.work__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.work__img {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.work__img:hover {
+  transform: translateY(-5px);
+}
+
+.work__img img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
